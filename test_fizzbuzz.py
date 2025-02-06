@@ -1,6 +1,9 @@
 import pytest
 from fizzbuzz import fizzbuzz
 
+def test_invalid():
+    assert fizzbuzz(1) == ['Test']
+
 def test_fizz():
     assert fizzbuzz(4) == ['1', '2', 'Fizz']
 
