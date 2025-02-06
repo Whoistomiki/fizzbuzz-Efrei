@@ -12,3 +12,4 @@ def fizzbuzz(n):
     return result
 
 print(fizzbuzz(101))
+print('test')
