@@ -11,6 +11,4 @@ def fizzbuzz(n):
             result.append(str(i))
     return result
 
-if __name__ == "__main__":
-    for res in fizzbuzz(101):
-        print(res)
+print(fizzbuzz(101))
