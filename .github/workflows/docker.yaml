@@ -8,7 +8,7 @@ on:
     
 jobs:
   test:
-    runs-on: [ubuntu-latest, windows-latest, macOS-latest]
+    runs-on: ubuntu-latest
     
     steps:
       - name: Checkout code
@@ -19,4 +19,3 @@ jobs:
 
       - name: Run tests in Docker
         run : docker run app-fizzbuzz
-
